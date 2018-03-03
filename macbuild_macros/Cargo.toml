@@ -1,0 +1,11 @@
+[package]
+name = "macbuild_macros"
+version = "0.1.0"
+authors = ["Alex Burka <aburka@seas.upenn.edu>"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "0.4"
+

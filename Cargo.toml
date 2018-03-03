@@ -1,0 +1,11 @@
+[package]
+name = "macbuild"
+version = "0.1.0"
+authors = ["Alex Burka <aburka@seas.upenn.edu>"]
+
+[dependencies]
+macbuild_macros = { path = "macbuild_macros" }
+
+[build-dependencies]
+macbuild_build = { path = "macbuild_build" }
+
